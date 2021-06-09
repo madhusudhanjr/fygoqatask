@@ -1,0 +1,5 @@
+--file ./test/config/hooks.js
+test/**/**/*.js
+--recursive
+--reporter mochawesome
+--reporter-options reportDir=reports,reportFilename=fygo_api_report
